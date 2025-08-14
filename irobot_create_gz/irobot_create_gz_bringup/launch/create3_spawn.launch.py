@@ -26,7 +26,7 @@ ARGUMENTS = [
                           description='Ignition World'),
     DeclareLaunchArgument('namespace', default_value='',
                           description='Robot namespace'),
-    DeclareLaunchArgument('use_rviz', default_value='true',
+    DeclareLaunchArgument('use_rviz', default_value='false',
                           choices=['true', 'false'], description='Start rviz.'),
     DeclareLaunchArgument('spawn_dock', default_value='true',
                           choices=['true', 'false'],

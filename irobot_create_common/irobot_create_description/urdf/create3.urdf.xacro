@@ -12,7 +12,7 @@
   <xacro:include filename="$(find irobot_create_description)/urdf/wheel_with_wheeldrop.urdf.xacro" />
 
   <!-- Gazebo version -->
-  <xacro:arg name="gazebo"                       default="classic" />
+  <xacro:arg name="gazebo"                       default="ignition" />
 
   <!-- Namespace -->
   <xacro:arg name="namespace"                    default=""/>

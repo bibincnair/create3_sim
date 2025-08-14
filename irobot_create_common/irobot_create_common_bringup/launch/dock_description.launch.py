@@ -10,7 +10,7 @@ from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitut
 from launch_ros.actions import Node
 
 ARGUMENTS = [
-    DeclareLaunchArgument('gazebo', default_value='classic',
+    DeclareLaunchArgument('gazebo', default_value='ignition',
                           choices=['classic', 'ignition'],
                           description='Which gazebo simulation to use'),
     DeclareLaunchArgument('visualize_rays', default_value='true',
